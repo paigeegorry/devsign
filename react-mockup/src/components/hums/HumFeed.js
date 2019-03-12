@@ -10,7 +10,6 @@ function HumFeed() {
     <Header />
     <main>
       <section>
-        <h2>Your feed</h2>
         <HumForm />
         <Hums />
       </section>

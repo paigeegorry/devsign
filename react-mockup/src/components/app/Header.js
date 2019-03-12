@@ -5,7 +5,6 @@ import styled from 'styled-components';
 const Wrapper = styled.header`
   font-family: sans-serif;
   display: flex;
-  flex-direction: row;
   h1 {
     margin-left: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -16,11 +15,7 @@ const Wrapper = styled.header`
   }`;
   
 const Nav = styled.nav`
-  ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
+  display: block;
   li {
     list-style: none;
   }
