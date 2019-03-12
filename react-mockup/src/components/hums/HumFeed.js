@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Header';
+import Header from '../app/Header';
 import HumForm from './HumForm';
-import Footer from './Footer';
+import Footer from '../app/Footer';
 import Hums from './Hums';
 
 function HumFeed() {

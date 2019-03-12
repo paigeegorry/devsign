@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './Header';
-import TopPosts from './TopPosts';
-import Footer from './Footer';
-import Login from './Login';
+import Header from './app/Header';
+import TopPosts from './user/TopPosts';
+import Footer from './app/Footer';
+import Login from './user/Login';
 
 function Home() {
   return (

@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from '../Home';
-import HumFeed from '../HumFeed';
-import UserDetail from '../UserDetail';
+import HumFeed from '../hums/HumFeed';
+import UserDetail from '../user/UserDetail';
 
 function App() {
   return (

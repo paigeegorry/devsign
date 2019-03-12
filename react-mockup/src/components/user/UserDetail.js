@@ -1,8 +1,8 @@
 import React from 'react';
 import UserInfo from './UserInfo';
-import HumsByUser from './HumsByUser';
-import Header from './Header';
-import Footer from './Footer';
+import HumsByUser from '../hums/HumsByUser';
+import Header from '../app/Header';
+import Footer from '../app/Footer';
 
 function UserDetail() {
   return (
