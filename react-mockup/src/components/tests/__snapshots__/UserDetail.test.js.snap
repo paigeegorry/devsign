@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDetail snapshot can match a snapshot 1`] = `
+Array [
+  <header>
+    <img
+      alt="Hummingbird logo"
+      src="react-mockup/src/assets/logo.png"
+    />
+    <nav>
+      <p>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </p>
+      <p>
+        <a
+          href="/hum-feed"
+          onClick={[Function]}
+        >
+          HumFeed
+        </a>
+      </p>
+      <p>
+        <a
+          href="/user"
+          onClick={[Function]}
+        >
+          Example User
+        </a>
+      </p>
+    </nav>
+  </header>,
+  <main>
+    <aside>
+      <img
+        alt="user icon"
+        src="react-mockup/src/assets/user-image.png"
+        width="100px"
+      />
+      <h3>
+        @username
+      </h3>
+      <p>
+        Location, Country
+      </p>
+      <a
+        alt="user website"
+        href="/"
+      >
+        My website
+      </a>
+      <p>
+        Bio. A little bit about user 247.
+      </p>
+    </aside>
+    <section>
+      <form>
+        <input
+          name="hum"
+          type="text"
+        />
+        <button>
+          Post new hum
+        </button>
+      </form>
+      <div>
+        <p>
+          Hum hum hum. bother. bother. bother.
+        </p>
+      </div>
+      <hr />
+      <div>
+        <p>
+          Hum hum hum. bother. bother. bother.
+        </p>
+      </div>
+      <hr />
+      <div>
+        <p>
+          Hum hum hum. bother. bother. bother.
+        </p>
+      </div>
+    </section>
+  </main>,
+  <footer>
+    <p>
+      © Hummingbird, 2019
+    </p>
+  </footer>,
+]
+`;

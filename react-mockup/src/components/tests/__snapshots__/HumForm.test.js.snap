@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HumForm snapshot can match a snapshot 1`] = `
+<form>
+  <input
+    name="hum"
+    type="text"
+  />
+  <button>
+    Add new post!
+  </button>
+</form>
+`;

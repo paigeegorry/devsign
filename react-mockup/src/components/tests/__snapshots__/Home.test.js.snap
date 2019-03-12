@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home snapshot can match a snapshot 1`] = `
+Array [
+  <header>
+    <img
+      alt="Hummingbird logo"
+      src="react-mockup/src/assets/logo.png"
+    />
+    <nav>
+      <p>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </p>
+      <p>
+        <a
+          href="/hum-feed"
+          onClick={[Function]}
+        >
+          HumFeed
+        </a>
+      </p>
+      <p>
+        <a
+          href="/user"
+          onClick={[Function]}
+        >
+          Example User
+        </a>
+      </p>
+    </nav>
+  </header>,
+  <main>
+    <section>
+      <h2>
+        Log-in
+      </h2>
+      <label
+        htmlFor="username"
+      >
+        Username:
+      </label>
+      <input
+        name="username"
+        type="text"
+      />
+      <label
+        htmlFor="password"
+      >
+        Password:
+      </label>
+      <input
+        name="password"
+        type="password"
+      />
+      <button>
+        Sign-in
+      </button>
+    </section>
+    <section>
+      <h3>
+        What is trending...
+      </h3>
+      <ol>
+        <li>
+          Top Hums go here
+        </li>
+        <li>
+          Top Hums go here
+        </li>
+        <li>
+          Top Hums go here
+        </li>
+        <li>
+          Top Hums go here
+        </li>
+        <li>
+          Top Hums go here
+        </li>
+      </ol>
+    </section>
+  </main>,
+  <footer>
+    <p>
+      © Hummingbird, 2019
+    </p>
+  </footer>,
+]
+`;

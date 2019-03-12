@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer snapshot can match a snapshot 1`] = `
+<footer>
+  <p>
+    © Hummingbird, 2019
+  </p>
+</footer>
+`;

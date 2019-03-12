@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserInfo snapshot can match a snapshot 1`] = `
+<aside>
+  <img
+    alt="user icon"
+    src="react-mockup/src/assets/user-image.png"
+    width="100px"
+  />
+  <h3>
+    @username
+  </h3>
+  <p>
+    Location, Country
+  </p>
+  <a
+    alt="user website"
+    href="/"
+  >
+    My website
+  </a>
+  <p>
+    Bio. A little bit about user 247.
+  </p>
+</aside>
+`;
