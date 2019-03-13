@@ -36,6 +36,7 @@ form {
     border: 1px solid #808080;
     margin: 5px;
     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    width: 250px;
   }
   input:focus {
     border: 1px solid rgba(81, 203, 238, 1);

@@ -17,27 +17,52 @@ export const UserInfoSection = styled.section`
     color: purple;
   }
   margin-bottom: 50px;
+
+  @media (min-width: 600px) {
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+    img {
+      margin-left: 200px;
+      margin-right: 0;
+    }
+
+    text-align: center;
+  }
 `;
 
 export const TopPostsSection = styled.section`
-font-family: sans-serif;
-font-size: 1.25em;
-border: 1px solid #E0E0E0;
-padding: 10px;
-margin: 10px 0px 10px 0px;
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center; 
-}
-ul {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-}
-li {
-  font-size: .90em;
-  margin-top: 5px;
-}
+  font-family: sans-serif;
+  font-size: 1.25em;
+  border: 1px solid #E0E0E0;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; 
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+  li {
+    font-size: .90em;
+    margin-top: 5px;
+  }
+
+  @media (min-width: 600px) {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    ul {
+      margin: 0px;
+    padding: 0px;
+    }
+    padding-bottom: 30px;
+    }
+  }
 `;
 
 export const LoginSection = styled.section`
@@ -62,19 +87,38 @@ export const LoginSection = styled.section`
     border-radius: 25px;
     margin-top: 5px;
   }
+
+  @media (min-width: 600px) {
+      form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        input {
+          margin-right: 20px;
+          padding: 5px;
+        }
+      }
+  }
 `;
 
 export const HumsByUserSection = styled.section`
-font-family: sans-serif;
-border: 1px solid gray;
-padding-top: 10px;
-h3 {
-  font-family: 'Montserrat', sans-serif; 
-  text-align: center;
-}
-div {
-  border-bottom: 1px solid gray;
-  padding: 15px;
-  margin-bottom: 5px;
-}
+  font-family: sans-serif;
+  border: 1px solid gray;
+  padding-top: 10px;
+  h3 {
+    font-family: 'Montserrat', sans-serif; 
+    text-align: center;
+  }
+  div {
+    border-bottom: 1px solid gray;
+    padding: 15px;
+    margin-bottom: 5px;
+  }
+
+  @media (min-width: 600px) {
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+  }
+
 `;
