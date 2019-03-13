@@ -1,12 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const Foot = styled.footer`
-  font-family: sans-serif;
-  display: flex;
-  justify-content: center;
-  background: #F5F5F5;
-`;
+import { Foot } from './AppStyles';
 
 function Footer() {
   return (
