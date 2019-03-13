@@ -1,13 +1,13 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Footer from '../Footer';
+import Header from '../app/Header';
 import { MemoryRouter } from 'react-router';
 
-describe('Footer snapshot', () => {
+describe('Header snapshot', () => {
   it('can match a snapshot', () => {
     const tree = renderer.create(
       <MemoryRouter>
-        <Footer />
+        <Header />
       </MemoryRouter>
     ).toJSON();
     expect(tree).toMatchSnapshot();

@@ -2,54 +2,98 @@
 
 exports[`Humfeed Snapshot can match a snapshot 1`] = `
 Array [
-  <header>
+  <header
+    className="sc-bdVaJa gSBsAX"
+  >
+    <div
+      className="sc-htpNat dePyzG"
+    >
+      <h1>
+        hummingbird
+      </h1>
+      <nav
+        className="sc-bwzfXH kRgTHW"
+      >
+        <ul>
+          <li>
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/hum-feed"
+              onClick={[Function]}
+            >
+              HumFeed
+            </a>
+          </li>
+          <li>
+            <a
+              href="/user"
+              onClick={[Function]}
+            >
+              User
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <img
       alt="Hummingbird logo"
       src="react-mockup/src/assets/logo.png"
     />
-    <nav>
-      <p>
-        <a
-          href="/"
-          onClick={[Function]}
-        >
-          Home
-        </a>
-      </p>
-      <p>
-        <a
-          href="/hum-feed"
-          onClick={[Function]}
-        >
-          HumFeed
-        </a>
-      </p>
-      <p>
-        <a
-          href="/user"
-          onClick={[Function]}
-        >
-          Example User
-        </a>
-      </p>
-    </nav>
   </header>,
   <main>
     <section>
-      <h2>
-        Your feed
+      <h2
+        className="sc-bZQynM hCqOOb"
+      >
+        hum-feed
       </h2>
-      <form>
-        <input
-          name="hum"
-          type="text"
-        />
-        <button>
-          Add new post!
-        </button>
-      </form>
+      <div
+        className="sc-bxivhb kfyurP"
+      >
+        <form>
+          <label
+            htmlFor="hum"
+          >
+            <p>
+              post a new hum
+            </p>
+            <input
+              name="hum"
+              type="text"
+            />
+          </label>
+          <button>
+            add new hum
+          </button>
+        </form>
+      </div>
       <section>
-        <div>
+        <div
+          className="sc-EHOje gfoWdB"
+        >
+          <img
+            alt="user icon"
+            src="react-mockup/src/assets/user-image.png"
+          />
+          <a
+            href="/userprofile"
+          >
+            @username
+          </a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolore eveniet voluptates officia repellat vitae qui accusamus suscipit eum, illum odit exercitationem sint similique reprehenderit incidunt eaque, maxime eligendi dolor?
+          </p>
+        </div>
+        <div
+          className="sc-EHOje gfoWdB"
+        >
           <img
             alt="user icon"
             src="react-mockup/src/assets/user-image.png"
@@ -64,22 +108,9 @@ Array [
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolore eveniet voluptates officia repellat vitae qui accusamus suscipit eum, illum odit exercitationem sint similique reprehenderit incidunt eaque, maxime eligendi dolor?
           </p>
         </div>
-        <div>
-          <img
-            alt="user icon"
-            src="react-mockup/src/assets/user-image.png"
-            width="100px"
-          />
-          <a
-            href="/userprofile"
-          >
-            @username
-          </a>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolore eveniet voluptates officia repellat vitae qui accusamus suscipit eum, illum odit exercitationem sint similique reprehenderit incidunt eaque, maxime eligendi dolor?
-          </p>
-        </div>
-        <div>
+        <div
+          className="sc-EHOje gfoWdB"
+        >
           <img
             alt="user icon"
             src="react-mockup/src/assets/user-image.png"
@@ -97,7 +128,9 @@ Array [
       </section>
     </section>
   </main>,
-  <footer>
+  <footer
+    className="sc-ifAKCX hTtQZu"
+  >
     <p>
       © Hummingbird, 2019
     </p>

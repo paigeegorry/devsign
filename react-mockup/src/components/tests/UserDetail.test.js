@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import UserDetail from '../UserDetail';
+import UserDetail from '../user/UserDetail';
 import { MemoryRouter } from 'react-router';
 
 describe('UserDetail snapshot', () => {

@@ -2,40 +2,55 @@
 
 exports[`Home snapshot can match a snapshot 1`] = `
 Array [
-  <header>
+  <header
+    className="sc-bdVaJa gSBsAX"
+  >
+    <div
+      className="sc-htpNat dePyzG"
+    >
+      <h1>
+        hummingbird
+      </h1>
+      <nav
+        className="sc-bwzfXH kRgTHW"
+      >
+        <ul>
+          <li>
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/hum-feed"
+              onClick={[Function]}
+            >
+              HumFeed
+            </a>
+          </li>
+          <li>
+            <a
+              href="/user"
+              onClick={[Function]}
+            >
+              User
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <img
       alt="Hummingbird logo"
       src="react-mockup/src/assets/logo.png"
     />
-    <nav>
-      <p>
-        <a
-          href="/"
-          onClick={[Function]}
-        >
-          Home
-        </a>
-      </p>
-      <p>
-        <a
-          href="/hum-feed"
-          onClick={[Function]}
-        >
-          HumFeed
-        </a>
-      </p>
-      <p>
-        <a
-          href="/user"
-          onClick={[Function]}
-        >
-          Example User
-        </a>
-      </p>
-    </nav>
   </header>,
   <main>
-    <section>
+    <section
+      className="sc-EHOje iKxbBM"
+    >
       <h2>
         Log-in
       </h2>
@@ -61,30 +76,34 @@ Array [
         Sign-in
       </button>
     </section>
-    <section>
+    <section
+      className="sc-bxivhb eRTQDF"
+    >
       <h3>
-        What is trending...
+        Trending
       </h3>
-      <ol>
+      <ul>
         <li>
-          Top Hums go here
+          #OhWhatABeautifulMorning
         </li>
         <li>
-          Top Hums go here
+          #SimAlchemy
         </li>
         <li>
-          Top Hums go here
+          #WorstTravelStories
         </li>
         <li>
-          Top Hums go here
+          #RainbowBagelsRBack
         </li>
         <li>
-          Top Hums go here
+          #Banana
         </li>
-      </ol>
+      </ul>
     </section>
   </main>,
-  <footer>
+  <footer
+    className="sc-ifAKCX hTtQZu"
+  >
     <p>
       © Hummingbird, 2019
     </p>

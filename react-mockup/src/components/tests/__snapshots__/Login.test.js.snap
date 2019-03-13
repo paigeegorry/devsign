@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Login snapshot can match a snapshot 1`] = `
-<section>
+<section
+  className="sc-bdVaJa bBxryh"
+>
   <h2>
     Log-in
   </h2>

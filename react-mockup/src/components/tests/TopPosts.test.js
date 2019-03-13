@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import TopPosts from '../TopPosts';
+import TopPosts from '../user/TopPosts';
 import { MemoryRouter } from 'react-router';
 
 describe('TopPosts snapshot', () => {

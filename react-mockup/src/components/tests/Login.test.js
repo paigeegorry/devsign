@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Login from '../Login';
+import Login from '../user/Login';
 import { MemoryRouter } from 'react-router';
 
 describe('Login snapshot', () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import HumForm from '../HumForm';
+import HumForm from '../hums/HumForm';
 import { MemoryRouter } from 'react-router';
 
 describe('HumForm snapshot', () => {

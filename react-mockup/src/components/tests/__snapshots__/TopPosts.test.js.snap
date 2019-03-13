@@ -1,26 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`TopPosts snapshot can match a snapshot 1`] = `
-<section>
+<section
+  className="sc-bdVaJa hInRst"
+>
   <h3>
-    What is trending...
+    Trending
   </h3>
-  <ol>
+  <ul>
     <li>
-      Top Hums go here
+      #OhWhatABeautifulMorning
     </li>
     <li>
-      Top Hums go here
+      #SimAlchemy
     </li>
     <li>
-      Top Hums go here
+      #WorstTravelStories
     </li>
     <li>
-      Top Hums go here
+      #RainbowBagelsRBack
     </li>
     <li>
-      Top Hums go here
+      #Banana
     </li>
-  </ol>
+  </ul>
 </section>
 `;

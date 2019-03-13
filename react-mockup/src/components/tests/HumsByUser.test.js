@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import HumsByUser from '../HumsByUser';
+import HumsByUser from '../user/HumsByUser';
 import { MemoryRouter } from 'react-router';
 
 describe('HumsByUser snapshot', () => {

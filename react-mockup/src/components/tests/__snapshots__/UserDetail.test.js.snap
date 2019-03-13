@@ -2,40 +2,55 @@
 
 exports[`UserDetail snapshot can match a snapshot 1`] = `
 Array [
-  <header>
+  <header
+    className="sc-htpNat gwiVQj"
+  >
+    <div
+      className="sc-ifAKCX dakLHt"
+    >
+      <h1>
+        hummingbird
+      </h1>
+      <nav
+        className="sc-bxivhb gJQaCU"
+      >
+        <ul>
+          <li>
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/hum-feed"
+              onClick={[Function]}
+            >
+              HumFeed
+            </a>
+          </li>
+          <li>
+            <a
+              href="/user"
+              onClick={[Function]}
+            >
+              User
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <img
       alt="Hummingbird logo"
       src="react-mockup/src/assets/logo.png"
     />
-    <nav>
-      <p>
-        <a
-          href="/"
-          onClick={[Function]}
-        >
-          Home
-        </a>
-      </p>
-      <p>
-        <a
-          href="/hum-feed"
-          onClick={[Function]}
-        >
-          HumFeed
-        </a>
-      </p>
-      <p>
-        <a
-          href="/user"
-          onClick={[Function]}
-        >
-          Example User
-        </a>
-      </p>
-    </nav>
   </header>,
   <main>
-    <aside>
+    <section
+      className="sc-bdVaJa jfWfOm"
+    >
       <img
         alt="user icon"
         src="react-mockup/src/assets/user-image.png"
@@ -47,38 +62,55 @@ Array [
       <p>
         Location, Country
       </p>
-      <a
-        alt="user website"
-        href="/"
-      >
-        My website
-      </a>
+      <p>
+        website: 
+        <a
+          alt="user website"
+          href="/"
+        >
+          website
+        </a>
+      </p>
       <p>
         Bio. A little bit about user 247.
       </p>
-    </aside>
-    <section>
+    </section>
+    <div
+      className="sc-bZQynM jVJWHm"
+    >
       <form>
-        <input
-          name="hum"
-          type="text"
-        />
+        <label
+          htmlFor="hum"
+        >
+          <p>
+            post a new hum
+          </p>
+          <input
+            name="hum"
+            type="text"
+          />
+        </label>
         <button>
-          Post new hum
+          add new hum
         </button>
       </form>
+    </div>
+    <section
+      className="sc-bwzfXH cTYrYG"
+    >
+      <h3>
+        hums by you!
+      </h3>
       <div>
         <p>
           Hum hum hum. bother. bother. bother.
         </p>
       </div>
-      <hr />
       <div>
         <p>
           Hum hum hum. bother. bother. bother.
         </p>
       </div>
-      <hr />
       <div>
         <p>
           Hum hum hum. bother. bother. bother.
@@ -86,7 +118,9 @@ Array [
       </div>
     </section>
   </main>,
-  <footer>
+  <footer
+    className="sc-EHOje eWyvtp"
+  >
     <p>
       © Hummingbird, 2019
     </p>

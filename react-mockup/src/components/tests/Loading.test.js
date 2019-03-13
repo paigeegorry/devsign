@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Loading from '../Loading';
+import Loading from '../app/Loading';
 import { MemoryRouter } from 'react-router';
 
 describe('Loading snapshot', () => {

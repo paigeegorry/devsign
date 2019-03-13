@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import UserInfo from '../UserInfo';
+import UserInfo from '../user/UserInfo';
 import { MemoryRouter } from 'react-router';
 
 describe('UserInfo snapshot', () => {
