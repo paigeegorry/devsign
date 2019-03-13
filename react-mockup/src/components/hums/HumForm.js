@@ -2,15 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Div = styled.div`
-  h2 {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center; 
-    border-top: 1px solid #E0E0E0;
-    padding-top: 25px;
+  font-family: sans-serif;
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
   }
   form {
     display: flex;
     flex-direction: column;
+    text-align: center;
     input {
       padding: 10px;
       border: 1px solid #808080;
@@ -23,6 +23,7 @@ const Div = styled.div`
     button {
       border: 1px solid rgba(81, 203, 238);
       width: 150px;
+      border-radius: 25px;
       font-weight: bold;
       text-transform: lowercase;
       padding: 8px;
@@ -35,9 +36,10 @@ const Div = styled.div`
 function HumForm() {
   return (
     <Div>
-      <h2>hum-feed</h2>
       <form>
-        <input type="text" name="hum" />
+        <label htmlFor="hum"><p>post a new hum</p>
+          <input type="text" name="hum" />
+        </label>
         <button>add new hum</button>
       </form>
     </Div>
