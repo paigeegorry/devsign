@@ -1,9 +1,23 @@
 import React from 'react';
 import { HumDiv } from './HumStyles';
+import PropTypes from 'prop-types';
 
-function Hums() {
+function Hums({ hums }) {
+  const humList = hums.map(hum => {
+    return (
+      <HumDiv key={hum.id}>
+        <p>
+          @{hum.handle}
+        </p>
+        <p>
+          {hum.hum}
+        </p>
+      </HumDiv>
+    );
+  });
   return (
     <section>
+      {humList}
       <HumDiv>
         <img src="react-mockup/src/assets/user-image.png" alt="user icon" />
         <a href="/userprofile">@username</a>
@@ -22,5 +36,9 @@ function Hums() {
     </section>
   );
 }
+
+Hums.propTypes = {
+  hums: PropTypes.array.isRequired
+};
 
 export default Hums;

@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../app/Header';
 import HumForm from './HumForm';
 import Footer from '../app/Footer';
-import Hums from './Hums';
+import AllHums from '../../containers/AllHums';
 import { Heading } from './HumStyles';
 
 function HumFeed() {
@@ -13,7 +13,7 @@ function HumFeed() {
       <section>
         <Heading>hum-feed</Heading>
         <HumForm />
-        <Hums />
+        <AllHums />
       </section>
     </main>
     <Footer />
