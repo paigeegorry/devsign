@@ -3,16 +3,16 @@
 exports[`Home snapshot can match a snapshot 1`] = `
 Array [
   <header
-    className="sc-bdVaJa gSBsAX"
+    className="sc-bwzfXH bwxuKh"
   >
     <div
-      className="sc-htpNat dePyzG"
+      className="sc-bxivhb glCqXO"
     >
       <h1>
         hummingbird
       </h1>
       <nav
-        className="sc-bwzfXH kRgTHW"
+        className="sc-htpNat doBOJi"
       >
         <ul>
           <li>
@@ -49,35 +49,37 @@ Array [
   </header>,
   <main>
     <section
-      className="sc-EHOje iKxbBM"
+      className="sc-bZQynM kidrJY"
     >
       <h2>
         Log-in
       </h2>
-      <label
-        htmlFor="username"
-      >
-        Username:
-      </label>
-      <input
-        name="username"
-        type="text"
-      />
-      <label
-        htmlFor="password"
-      >
-        Password:
-      </label>
-      <input
-        name="password"
-        type="password"
-      />
-      <button>
-        Sign-in
-      </button>
+      <form>
+        <label
+          htmlFor="username"
+        >
+          Username:
+        </label>
+        <input
+          name="username"
+          type="text"
+        />
+        <label
+          htmlFor="password"
+        >
+          Password:
+        </label>
+        <input
+          name="password"
+          type="password"
+        />
+        <button>
+          Sign-in
+        </button>
+      </form>
     </section>
     <section
-      className="sc-bxivhb eRTQDF"
+      className="sc-EHOje hEbVQK"
     >
       <h3>
         Trending
@@ -102,7 +104,7 @@ Array [
     </section>
   </main>,
   <footer
-    className="sc-ifAKCX hTtQZu"
+    className="sc-bdVaJa ilWQSg"
   >
     <p>
       © Hummingbird, 2019

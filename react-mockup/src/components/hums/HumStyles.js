@@ -1,24 +1,27 @@
 import styled from 'styled-components';
 
 export const  HumDiv = styled.div`
-font-family: sans-serif;
-padding: 10px;
-margin: 5px;
-border: 1px solid #E0E0E0;
-img {
-  position: relative;
-  float: left;
-  top: 0;
-  height: 50px;
-  width: 50px;
-  border: 1px solid black;
-  border-radius: 30px;
-  padding: 5px;
-  margin: 10px;
-}
-a {
-  font-weight: bold;
-}
+  font-family: sans-serif;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #E0E0E0;
+  img {
+    position: relative;
+    float: left;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 10px;
+  }
+  a {
+    font-weight: bold;
+  }
+  @media (min-width: 800px) {
+    width: 600px;
+  }
 `;
 
 export const FormDiv = styled.div`

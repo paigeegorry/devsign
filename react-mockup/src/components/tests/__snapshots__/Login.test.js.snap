@@ -2,31 +2,33 @@
 
 exports[`Login snapshot can match a snapshot 1`] = `
 <section
-  className="sc-bdVaJa bBxryh"
+  className="sc-htpNat bbYap"
 >
   <h2>
     Log-in
   </h2>
-  <label
-    htmlFor="username"
-  >
-    Username:
-  </label>
-  <input
-    name="username"
-    type="text"
-  />
-  <label
-    htmlFor="password"
-  >
-    Password:
-  </label>
-  <input
-    name="password"
-    type="password"
-  />
-  <button>
-    Sign-in
-  </button>
+  <form>
+    <label
+      htmlFor="username"
+    >
+      Username:
+    </label>
+    <input
+      name="username"
+      type="text"
+    />
+    <label
+      htmlFor="password"
+    >
+      Password:
+    </label>
+    <input
+      name="password"
+      type="password"
+    />
+    <button>
+      Sign-in
+    </button>
+  </form>
 </section>
 `;

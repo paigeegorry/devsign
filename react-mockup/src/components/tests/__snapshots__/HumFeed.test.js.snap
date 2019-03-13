@@ -3,16 +3,16 @@
 exports[`Humfeed Snapshot can match a snapshot 1`] = `
 Array [
   <header
-    className="sc-bdVaJa gSBsAX"
+    className="sc-bwzfXH bwxuKh"
   >
     <div
-      className="sc-htpNat dePyzG"
+      className="sc-bxivhb glCqXO"
     >
       <h1>
         hummingbird
       </h1>
       <nav
-        className="sc-bwzfXH kRgTHW"
+        className="sc-htpNat doBOJi"
       >
         <ul>
           <li>
@@ -50,12 +50,12 @@ Array [
   <main>
     <section>
       <h2
-        className="sc-bZQynM hCqOOb"
+        className="sc-bZQynM bjfZxa"
       >
         hum-feed
       </h2>
       <div
-        className="sc-bxivhb kfyurP"
+        className="sc-EHOje hIgVXl"
       >
         <form>
           <label
@@ -76,7 +76,7 @@ Array [
       </div>
       <section>
         <div
-          className="sc-EHOje gfoWdB"
+          className="sc-ifAKCX lilcnV"
         >
           <img
             alt="user icon"
@@ -92,7 +92,7 @@ Array [
           </p>
         </div>
         <div
-          className="sc-EHOje gfoWdB"
+          className="sc-ifAKCX lilcnV"
         >
           <img
             alt="user icon"
@@ -109,7 +109,7 @@ Array [
           </p>
         </div>
         <div
-          className="sc-EHOje gfoWdB"
+          className="sc-ifAKCX lilcnV"
         >
           <img
             alt="user icon"
@@ -129,7 +129,7 @@ Array [
     </section>
   </main>,
   <footer
-    className="sc-ifAKCX hTtQZu"
+    className="sc-bdVaJa ilWQSg"
   >
     <p>
       © Hummingbird, 2019
