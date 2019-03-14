@@ -1,1 +1,1 @@
-export const getHums = state => state.hums;
+export const getHums = state => state.hums.hums;
