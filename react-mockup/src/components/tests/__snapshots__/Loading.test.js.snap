@@ -1,7 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Loading snapshot can match a snapshot 1`] = `
-<h1>
-  Loading...
-</h1>
+Array [
+  <header
+    className="sc-bwzfXH bwxuKh"
+  >
+    <div
+      className="sc-bxivhb glCqXO"
+    >
+      <h1>
+        hummingbird
+      </h1>
+      <nav
+        className="sc-htpNat doBOJi"
+      >
+        <ul>
+          <li>
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/hum-feed"
+              onClick={[Function]}
+            >
+              HumFeed
+            </a>
+          </li>
+          <li>
+            <a
+              href="/user"
+              onClick={[Function]}
+            >
+              User
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <img
+      alt="Hummingbird logo"
+      src="react-mockup/src/assets/logo.png"
+    />
+  </header>,
+  <div
+    className="sc-ifAKCX cwmvFL"
+  >
+    <h1
+      data-text="Loading…"
+    >
+      Loading…
+    </h1>
+  </div>,
+  <footer
+    className="sc-bdVaJa ilWQSg"
+  >
+    <p>
+      © Hummingbird, 2019
+    </p>
+  </footer>,
+]
 `;

@@ -5,6 +5,50 @@ exports[`Hums snapshot can match a snapshot 1`] = `
   <div
     className="sc-bdVaJa laBngi"
   >
+    <p>
+      @
+      yolo
+    </p>
+    <p>
+      this is my first hum
+    </p>
+  </div>
+  <div
+    className="sc-bdVaJa laBngi"
+  >
+    <p>
+      @
+      yol0
+    </p>
+    <p>
+      this is my second hum
+    </p>
+  </div>
+  <div
+    className="sc-bdVaJa laBngi"
+  >
+    <p>
+      @
+      y0lo
+    </p>
+    <p>
+      this is my third hum
+    </p>
+  </div>
+  <div
+    className="sc-bdVaJa laBngi"
+  >
+    <p>
+      @
+      y0l0
+    </p>
+    <p>
+      this is my fourth hum
+    </p>
+  </div>
+  <div
+    className="sc-bdVaJa laBngi"
+  >
     <img
       alt="user icon"
       src="react-mockup/src/assets/user-image.png"

@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/paigeegorry/devsign#readme",
   "dependencies": {
+    "auth0-js": "^9.10.0",
+    "loading-css": "^0.2.0",
     "normalize.css": "^8.0.1",
     "promise-middleware-redux": "^1.0.5",
     "react": "^16.8.2",
@@ -47,6 +49,7 @@
     "babel-polyfill": "^6.26.0",
     "clean-webpack-plugin": "^1.0.1",
     "css-loader": "^2.1.0",
+    "dotenv-webpack": "^1.7.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.9.1",
     "enzyme-to-json": "^3.3.5",

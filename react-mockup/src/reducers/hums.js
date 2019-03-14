@@ -1,7 +1,8 @@
-import { FETCH_HUMS } from '../actions/hums';
+import { FETCH_HUMS, CREATE_HUM } from '../actions/hums';
 
 const initialState = {
-  hums: []
+  hums: [],
+  hum: {}
 };
 
 export default function reducer(state = initialState, action) {
@@ -10,6 +11,11 @@ export default function reducer(state = initialState, action) {
       return {
         ...state,
         hums: action.payload
+      };
+    case CREATE_HUM: 
+      return {
+        ...state,
+        hum: action.payload
       };
     default:
       return state;
