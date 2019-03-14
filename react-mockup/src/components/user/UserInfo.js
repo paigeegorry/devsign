@@ -1,12 +1,20 @@
 import React from 'react';
 import { UserInfoSection } from './UserStyles';
+import PropTypes from 'prop-types';
 
-function UserInfo() {
+function UserInfo({
+  handle,
+  profilePicture
+}) {
+  if(!profilePicture) {
+    profilePicture = 'https://res.cloudinary.com/dkrup6iyl/image/fetch/v1552429847/https://res.cloudinary.com/dkrup6iyl/image/upload/v1552429521/download.png';
+  }
+  
   return (
     <UserInfoSection>
-      <img src="react-mockup/src/assets/user-image.png" alt="user icon" width="100px" />
+      <img src={profilePicture} alt="user icon" width="100px" />
       <div>
-        <h3>@username</h3>
+        <h3>{handle}</h3>
         <p>Location, Country</p>
         <p>website: <a href="/" alt="user website">website</a></p>
         <p>Bio. A little bit about user 247.</p>
@@ -14,5 +22,10 @@ function UserInfo() {
     </UserInfoSection>
   );
 }
+
+UserInfo.propTypes = {
+  handle: PropTypes.string.isRequired,
+  profilePicture: PropTypes.string.isRequired
+};
 
 export default UserInfo;

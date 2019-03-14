@@ -20,7 +20,8 @@ export const  HumDiv = styled.div`
     font-weight: bold;
   }
   @media (min-width: 800px) {
-    width: 600px;
+    width: 96vw;
+    
   }
 `;
 

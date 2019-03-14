@@ -5,10 +5,16 @@ exports[`Hums snapshot can match a snapshot 1`] = `
   <div
     className="sc-bdVaJa laBngi"
   >
-    <p>
+    <img
+      src="../assets/user-image.png"
+    />
+    <a
+      href="/users/{handle.id}"
+      onClick={[Function]}
+    >
       @
       yolo
-    </p>
+    </a>
     <p>
       this is my first hum
     </p>
@@ -16,10 +22,16 @@ exports[`Hums snapshot can match a snapshot 1`] = `
   <div
     className="sc-bdVaJa laBngi"
   >
-    <p>
+    <img
+      src="../assets/user-image.png"
+    />
+    <a
+      href="/users/{handle.id}"
+      onClick={[Function]}
+    >
       @
       yol0
-    </p>
+    </a>
     <p>
       this is my second hum
     </p>
@@ -27,10 +39,16 @@ exports[`Hums snapshot can match a snapshot 1`] = `
   <div
     className="sc-bdVaJa laBngi"
   >
-    <p>
+    <img
+      src="../assets/user-image.png"
+    />
+    <a
+      href="/users/{handle.id}"
+      onClick={[Function]}
+    >
       @
       y0lo
-    </p>
+    </a>
     <p>
       this is my third hum
     </p>
@@ -38,62 +56,18 @@ exports[`Hums snapshot can match a snapshot 1`] = `
   <div
     className="sc-bdVaJa laBngi"
   >
-    <p>
+    <img
+      src="../assets/user-image.png"
+    />
+    <a
+      href="/users/{handle.id}"
+      onClick={[Function]}
+    >
       @
       y0l0
-    </p>
+    </a>
     <p>
       this is my fourth hum
-    </p>
-  </div>
-  <div
-    className="sc-bdVaJa laBngi"
-  >
-    <img
-      alt="user icon"
-      src="react-mockup/src/assets/user-image.png"
-    />
-    <a
-      href="/userprofile"
-    >
-      @username
-    </a>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolore eveniet voluptates officia repellat vitae qui accusamus suscipit eum, illum odit exercitationem sint similique reprehenderit incidunt eaque, maxime eligendi dolor?
-    </p>
-  </div>
-  <div
-    className="sc-bdVaJa laBngi"
-  >
-    <img
-      alt="user icon"
-      src="react-mockup/src/assets/user-image.png"
-      width="100px"
-    />
-    <a
-      href="/userprofile"
-    >
-      @username
-    </a>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolore eveniet voluptates officia repellat vitae qui accusamus suscipit eum, illum odit exercitationem sint similique reprehenderit incidunt eaque, maxime eligendi dolor?
-    </p>
-  </div>
-  <div
-    className="sc-bdVaJa laBngi"
-  >
-    <img
-      alt="user icon"
-      src="react-mockup/src/assets/user-image.png"
-      width="100px"
-    />
-    <a
-      href="/userprofile"
-    >
-      @username
-    </a>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolore eveniet voluptates officia repellat vitae qui accusamus suscipit eum, illum odit exercitationem sint similique reprehenderit incidunt eaque, maxime eligendi dolor?
     </p>
   </div>
 </section>

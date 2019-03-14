@@ -1,5 +1,5 @@
 import React from 'react';
-import UserInfo from './UserInfo';
+import User from '../../containers/User';
 import HumsByUser from './HumsByUser';
 import Header from '../app/Header';
 import Footer from '../app/Footer';
@@ -10,7 +10,7 @@ function UserDetail() {
     <>
     <Header />
     <main>
-      <UserInfo />
+      <User />
       <HumForm />
       <HumsByUser />
     </main>

@@ -40,6 +40,16 @@ export const Nav = styled.nav`
     justify-content: space-between;
     li {
       list-style: none;
+      a {
+        font-family: 'Montserrat', sans-serif;
+        color: purple;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      a:hover {
+        text-shadow: 1px 1px purple;
+        color: black;
+      }
     }
   }
 
