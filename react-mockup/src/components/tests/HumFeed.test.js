@@ -1,21 +1,25 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
 import HumFeed from '../hums/HumFeed';
 import { MemoryRouter } from 'react-router';
 import { Provider } from 'react-redux';
 import store from '../../store';
+import { shallow } from 'enzyme';
+import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 
-jest.mock('../../services/auth.js');
+Enzyme.configure({ adapter: new Adapter() });
+
+jest.mock('../../services/auth.js', () => ({}));
 
 describe('Humfeed Snapshot', () => {
   it('can match a snapshot', () => {
-    const tree = renderer.create(
+    const tree = shallow(
       <Provider store={store}>
         <MemoryRouter>
           <HumFeed />
         </MemoryRouter>
       </Provider>
-    ).toJSON();
+    );
     expect(tree).toMatchSnapshot();
   });
 });

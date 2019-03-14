@@ -2,7 +2,6 @@ import reducer from './hums';
 import { FETCH_HUMS, CREATE_HUM } from '../actions/hums';
 
 describe('hums reducer', () => {
-  
   it('can fetch hums from state', () => {
     const state = {
       hums: [
