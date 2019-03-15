@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/paigeegorry/devsign#readme",
   "dependencies": {
-    "animate.css": "^3.7.0",
     "auth0-js": "^9.10.0",
     "loading-css": "^0.2.0",
     "normalize.css": "^8.0.1",
