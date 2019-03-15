@@ -1,16 +1,14 @@
 import React from 'react';
 import Header from './app/Header';
-import TopPosts from './user/TopPosts';
+import Trending from '../containers/Trending';
 import Footer from './app/Footer';
-import Login from './user/Login';
 
 function Home() {
   return (
     <>
     <Header />
     <main>
-      <Login />
-      <TopPosts />
+      <Trending />
     </main>
     <Footer />
     </>

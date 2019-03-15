@@ -1,19 +1,27 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { TopPostsSection } from './UserStyles';
 
-function TopPosts() {
+function TopPosts({
+  quotes
+}) {
+  const quotesList = quotes.map((quote, i) => {
+    return (
+      <li key={i}>{quote.quote}</li>
+    );
+  });
   return (
     <TopPostsSection>
       <h3>Trending</h3>
       <ul>
-        <li>#OhWhatABeautifulMorning</li>
-        <li>#SimAlchemy</li>
-        <li>#WorstTravelStories</li>
-        <li>#RainbowBagelsRBack</li>
-        <li>#Banana</li>
+        {quotesList}
       </ul>
     </TopPostsSection>
   );
 }
+
+TopPosts.propTypes = {
+  quotes: PropTypes.array.isRequired
+};
 
 export default TopPosts;
