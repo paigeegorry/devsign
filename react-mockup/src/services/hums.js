@@ -1,6 +1,6 @@
 import { get } from './request';
 
-export const getHums = () => get('/hums');
+export const getHums = () => get('hums');
 
 
 // return Promise.resolve([
