@@ -12,7 +12,7 @@ Array [
         hummingbird
       </h1>
       <nav
-        className="sc-htpNat doBOJi"
+        className="sc-htpNat kemIxo"
       >
         <ul>
           <li>
@@ -33,10 +33,10 @@ Array [
           </li>
           <li>
             <a
-              href="/user"
+              href="/profile"
               onClick={[Function]}
             >
-              User
+              Profile
             </a>
           </li>
         </ul>

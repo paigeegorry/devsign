@@ -11,7 +11,7 @@ exports[`Header snapshot can match a snapshot 1`] = `
       hummingbird
     </h1>
     <nav
-      className="sc-htpNat doBOJi"
+      className="sc-htpNat kemIxo"
     >
       <ul>
         <li>
@@ -32,10 +32,10 @@ exports[`Header snapshot can match a snapshot 1`] = `
         </li>
         <li>
           <a
-            href="/user"
+            href="/profile"
             onClick={[Function]}
           >
-            User
+            Profile
           </a>
         </li>
       </ul>

@@ -3,13 +3,13 @@
 exports[`Hums snapshot can match a snapshot 1`] = `
 <section>
   <div
-    className="sc-bdVaJa laBngi"
+    className="sc-bdVaJa cmCxeD"
   >
     <img
       src="../assets/user-image.png"
     />
     <a
-      href="/users/{handle.id}"
+      href="/users/{id}"
       onClick={[Function]}
     >
       @
@@ -20,13 +20,13 @@ exports[`Hums snapshot can match a snapshot 1`] = `
     </p>
   </div>
   <div
-    className="sc-bdVaJa laBngi"
+    className="sc-bdVaJa cmCxeD"
   >
     <img
       src="../assets/user-image.png"
     />
     <a
-      href="/users/{handle.id}"
+      href="/users/{id}"
       onClick={[Function]}
     >
       @
@@ -37,13 +37,13 @@ exports[`Hums snapshot can match a snapshot 1`] = `
     </p>
   </div>
   <div
-    className="sc-bdVaJa laBngi"
+    className="sc-bdVaJa cmCxeD"
   >
     <img
       src="../assets/user-image.png"
     />
     <a
-      href="/users/{handle.id}"
+      href="/users/{id}"
       onClick={[Function]}
     >
       @
@@ -54,13 +54,13 @@ exports[`Hums snapshot can match a snapshot 1`] = `
     </p>
   </div>
   <div
-    className="sc-bdVaJa laBngi"
+    className="sc-bdVaJa cmCxeD"
   >
     <img
       src="../assets/user-image.png"
     />
     <a
-      href="/users/{handle.id}"
+      href="/users/{id}"
       onClick={[Function]}
     >
       @
