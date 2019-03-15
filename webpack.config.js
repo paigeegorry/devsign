@@ -15,7 +15,7 @@ module.exports = {
     historyApiFallback: true
   },
   plugins: [
-    new DotenvPlugin(),
+    new DotenvPlugin({ systemvars: true }),
     new HtmlPlugin({
       template: './react-mockup/src/index.html'
     }),
