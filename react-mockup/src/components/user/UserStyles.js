@@ -50,6 +50,10 @@ export const TopPostsSection = styled.section`
   li {
     font-size: .90em;
     margin-top: 5px;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #E0E0E0;
   }
 
   @media (min-width: 600px) {
