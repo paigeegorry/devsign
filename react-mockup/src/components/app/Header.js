@@ -15,7 +15,7 @@ function Header() {
           </ul>
         </Nav>
       </Div>
-      <img src="react-mockup/src/assets/logo.png" alt="Hummingbird logo" />
+      <img src="https://res.cloudinary.com/dkrup6iyl/image/fetch/v1552429847/https://res.cloudinary.com/dkrup6iyl/image/upload/v1552429521/download.png" alt="Hummingbird logo" />
     </Wrapper>
   );
 }
