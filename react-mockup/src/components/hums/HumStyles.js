@@ -16,8 +16,10 @@ export const  HumDiv = styled.div`
     padding: 5px;
     margin: 10px;
   }
-  a {
+  span {
+    display: inline-block;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
   }
   @media (min-width: 800px) {
     width: 96vw;

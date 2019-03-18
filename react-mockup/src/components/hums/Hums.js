@@ -1,14 +1,13 @@
 import React from 'react';
 import { HumDiv } from './HumStyles';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 
 function Hums({ hums }) {
-  const humList = hums.map(hum => {
+  const humList = hums.map((hum, i) => {
     return (
-      <HumDiv key={hum.id}>
-        <img src={hum.img} />
-        <Link to='/users/{id}'>@{hum.handle}</Link>
+      <HumDiv key={i}>
+        <img src={hum.user.picture} />
+        <span>@{hum.user.nickname}</span>
         <p>{hum.hum}</p>
       </HumDiv>
     );
