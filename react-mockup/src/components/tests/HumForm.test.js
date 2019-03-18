@@ -1,15 +1,22 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
 import HumForm from '../hums/HumForm';
 import { MemoryRouter } from 'react-router';
+import { shallow } from 'enzyme';
+import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+Enzyme.configure({ adapter: new Adapter() });
+
+jest.mock('../../services/auth.js');
 
 describe('HumForm snapshot', () => {
   it('can match a snapshot', () => {
-    const tree = renderer.create(
+    const onChange = jest.fn();
+    const tree = shallow(
       <MemoryRouter>
-        <HumForm />
+        <HumForm onChange={onChange} hum='' onSubmit={onChange} />
       </MemoryRouter>
-    ).toJSON();
+    );
     expect(tree).toMatchSnapshot();
   });
 });

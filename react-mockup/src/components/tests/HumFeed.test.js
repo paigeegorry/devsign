@@ -9,7 +9,7 @@ import Adapter from 'enzyme-adapter-react-16';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-jest.mock('../../services/auth.js', () => ({}));
+jest.mock('../../services/auth.js');
 
 describe('Humfeed Snapshot', () => {
   it('can match a snapshot', () => {

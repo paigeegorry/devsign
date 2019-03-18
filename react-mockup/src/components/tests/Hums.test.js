@@ -1,7 +1,13 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
 import Hums from '../hums/Hums';
 import { MemoryRouter } from 'react-router';
+import { shallow } from 'enzyme';
+import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+Enzyme.configure({ adapter: new Adapter() });
+
+jest.mock('../../services/auth.js');
 
 const hums = [
   { id: 1234, handle: 'yolo', hum: 'this is my first hum', img: '../assets/user-image.png' },
@@ -12,11 +18,11 @@ const hums = [
 
 describe('Hums snapshot', () => {
   it('can match a snapshot', () => {
-    const tree = renderer.create(
+    const tree = shallow(
       <MemoryRouter>
         <Hums hums={hums} />
       </MemoryRouter>
-    ).toJSON();
+    );
     expect(tree).toMatchSnapshot();
   });
 });

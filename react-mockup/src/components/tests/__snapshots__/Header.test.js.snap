@@ -43,7 +43,7 @@ exports[`Header snapshot can match a snapshot 1`] = `
   </div>
   <img
     alt="Hummingbird logo"
-    src="react-mockup/src/assets/logo.png"
+    src="https://res.cloudinary.com/dkrup6iyl/image/fetch/v1552429847/https://res.cloudinary.com/dkrup6iyl/image/upload/v1552429521/download.png"
   />
 </header>
 `;
