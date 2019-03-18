@@ -1,6 +1,9 @@
 import reducer from './hums';
 import { FETCH_HUMS, CREATE_HUM } from '../actions/hums';
 
+jest.mock('../services/auth.js');
+jest.mock('../services/hums.js');
+
 describe('hums reducer', () => {
   it('can fetch hums from state', () => {
     const state = {
@@ -16,7 +19,8 @@ describe('hums reducer', () => {
     expect(reducerTest).toEqual({ 
       hums: [
         { id: 1234, handle: 'yolo', hum: 'this is my first hum', img: '../../assets/user-image.png' }
-      ] 
+      ],
+      loading: false
     });
   });
 
@@ -28,6 +32,6 @@ describe('hums reducer', () => {
       type: CREATE_HUM,
       payload: 'hello'
     });
-    expect(reducerTest).toEqual({ hum: 'hello' });
+    expect(reducerTest).toEqual({ hum: 'hello', loading: false });
   });
 });

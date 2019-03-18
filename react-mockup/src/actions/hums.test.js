@@ -1,4 +1,12 @@
-import { fetchHums, FETCH_HUMS, createHum, CREATE_HUM } from './hums';
+import { 
+  fetchHums, 
+  FETCH_HUMS, 
+  createHum, 
+  CREATE_HUM 
+} from './hums';
+
+jest.mock('../services/auth.js');
+jest.mock('../services/hums.js');
 
 describe('Hum actions', () => {
   it('can handle the fetch action', () => {
@@ -6,6 +14,7 @@ describe('Hum actions', () => {
 
     expect(action).toEqual({
       type: FETCH_HUMS,
+      loading: true,
       payload: Promise.resolve()
     });
   });
@@ -15,7 +24,8 @@ describe('Hum actions', () => {
 
     expect(action).toEqual({
       type: CREATE_HUM,
-      payload: 'hello'
+      loading: true,
+      payload: Promise.resolve()
     });
   });
 });
