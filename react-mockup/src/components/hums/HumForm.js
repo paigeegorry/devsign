@@ -8,7 +8,7 @@ function HumForm({
   hum
 }) {
   return (
-    <FormDiv onSubmit={onSubmit}>
+    <FormDiv onSubmit={onSubmit.bind(null, hum)}>
       <form>
         <label htmlFor="hum"><p>post a new hum</p>
           <input type="text" name="hum" value={hum} onChange={onChange} />
@@ -22,7 +22,7 @@ function HumForm({
 HumForm.propTypes = {
   onSubmit: PropTypes.func.isRequired,
   onChange: PropTypes.func.isRequired,
-  hum: PropTypes.string.isRequired
+  hum: PropTypes.string
 };
 
 export default HumForm;

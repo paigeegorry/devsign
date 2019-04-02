@@ -4,10 +4,11 @@ import HumForm from '../components/hums/HumForm';
 import { createHum, updateHum } from '../actions/hums';
 import PropTypes from 'prop-types';
 import { getHum } from '../selectors/hums';
+import { getUserId } from '../selectors/session';
 
 class Hum extends PureComponent {
   static propTypes = {
-    hum: PropTypes.string.isRequired,
+    hum: PropTypes.string,
     onSubmit: PropTypes.func.isRequired,
     onChange: PropTypes.func.isRequired
   }
@@ -24,17 +25,17 @@ class Hum extends PureComponent {
 }
 
 const mapStateToProps = state => ({
-  hum: getHum(state)
+  hum: getHum(state), 
+  user: getUserId(state)
 });
 
-const mapDispatchToProps = (dispatch, props) => ({
-  onSubmit(event) {
+const mapDispatchToProps = dispatch => ({
+  onSubmit(hum, event) {
     event.preventDefault();
-    console.log(props);
-    dispatch(createHum(props.hum));
+    dispatch(createHum({ hum }));
   },
-  onChange() {
-    dispatch(updateHum(props.hum));
+  onChange({ target }) {
+    dispatch(updateHum(target.value));
   }
 });
 

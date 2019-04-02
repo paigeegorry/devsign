@@ -1,24 +1,29 @@
-import { FETCH_HUMS, CREATE_HUM } from '../actions/hums';
+import { FETCH_HUMS, CREATE_HUM, UPDATE_HUM } from '../actions/hums';
 
 const initialState = {
   hums: [],
-  hum: {},
-  humText: '',
+  hum: '',
   loading: false
 };
 
-export default function reducer(state = initialState, action) {
-  switch(action.type) {
+export default function reducer(state = initialState, { type, payload }) {
+  switch(type) {
     case FETCH_HUMS:
       return {
         ...state,
-        hums: action.payload,
+        hums: payload,
         loading: false
       };
     case CREATE_HUM: 
       return {
         ...state,
-        hum: action.payload,
+        hums: [...state.hums, payload],
+        loading: false
+      };
+    case UPDATE_HUM:
+      return {
+        ...state,
+        hum: payload,
         loading: false
       };
     default:

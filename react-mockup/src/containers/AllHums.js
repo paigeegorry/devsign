@@ -16,6 +16,10 @@ class AllHums extends PureComponent {
     this.props.fetch();
   }
 
+  componentDidUpdate() {
+    this.props.fetch();
+  }
+
   render() {
     return (
       <Hums hums={this.props.hums} key={this.props.hums} />

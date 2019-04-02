@@ -1,4 +1,4 @@
-import { getHums } from './hums';
+import { getHums, getHum } from './hums';
 
 describe('hums selector', () => {
   it('can get a list of hums', () => {
@@ -20,5 +20,16 @@ describe('hums selector', () => {
       { id: 1236, handle: 'y0lo', hum: 'this is my third hum', img: '../assets/user-image.png' },
       { id: 1237, handle: 'y0l0', hum: 'this is my fourth hum', img: '../assets/user-image.png' }
     ]);
+  });
+
+  it('can get a hum from state', () => {
+    const state = {
+      hums: {
+        hum: 'hello'
+      }
+    };
+
+    const selectedHum = getHum(state);
+    expect(selectedHum).toEqual('hello');
   });
 });

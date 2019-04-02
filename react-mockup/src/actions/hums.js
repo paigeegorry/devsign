@@ -10,7 +10,7 @@ export const fetchHums = () => ({
 export const CREATE_HUM = 'CREATE_HUM';
 export const createHum = hum => ({
   type: CREATE_HUM,
-  payload: postHums(hum),
+  payload: postHums({ hum }),
   loading: true
 });
 
