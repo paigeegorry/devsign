@@ -3,7 +3,7 @@ import User from '../../containers/User';
 import HumsByUser from './HumsByUser';
 import Header from '../app/Header';
 import Footer from '../app/Footer';
-import HumForm from '../hums/HumForm';
+// import HumForm from '../hums/HumForm';
 
 function UserDetail() {
   return (
@@ -11,7 +11,7 @@ function UserDetail() {
     <Header />
     <main>
       <User />
-      <HumForm />
+      {/* <HumForm  /> */}
       <HumsByUser />
     </main>
     <Footer />
