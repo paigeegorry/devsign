@@ -1,7 +1,7 @@
 # Twitter Clone
 
 ## Day 1: Structure
-
+ 
 * Create user personas
 * Create user scenarios
 * Create user stories
